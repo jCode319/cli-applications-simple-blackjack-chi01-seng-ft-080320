@@ -3,7 +3,8 @@ def welcome
 end
 
 def deal_card
-  card = sort_by { 1..12 }
+  num = rand(1..12)
+  return num
 end
 
 def display_card_total
