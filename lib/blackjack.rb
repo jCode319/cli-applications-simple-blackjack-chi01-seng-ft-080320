@@ -35,8 +35,10 @@ def hit?(get_user_input)
   if choice == "h"
     newNumber = deal_card
     card_total = card_total + newNumber
-  else choice == "s"
+  elsif choice == "s"
     card_total
+  else
+    invalid_command
   end
 end
 
