@@ -30,8 +30,14 @@ def initial_round
 end
 
 def hit?(get_user_input)
-  "#{prompt_user}"
-  "#{get_user_input}"
+  prompt_user
+  choice = get_user_input
+  if choice == "h"
+    newNumber = deal_card
+    card_total = card_total + newNumber
+  else choice == "s"
+    card_total
+  end
 end
 
 def invalid_command
