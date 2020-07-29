@@ -42,7 +42,7 @@ def hit?(card_total)
     return card_total
   else
     invalid_command
-    hit?
+    hit?(card_total)
   end
   card_total
    #binding.pry
