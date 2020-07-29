@@ -30,11 +30,11 @@ def initial_round
 end
 
 def hit?
-  puts "Please enter a valid command"
+  user = gets.chomp
 end
 
 def invalid_command
-  # code invalid_command here
+  puts "Please enter a valid command"
 end
 
 #####################################################
