@@ -43,6 +43,7 @@ def hit?(get_user_input)
   else
     invalid_command
     hit?
+  end
    #binding.pry
 end
 
