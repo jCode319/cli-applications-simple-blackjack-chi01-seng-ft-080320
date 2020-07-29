@@ -4,6 +4,7 @@ end
 
 def deal_card
   num = rand(1..12)
+end
   return num
 end
 
