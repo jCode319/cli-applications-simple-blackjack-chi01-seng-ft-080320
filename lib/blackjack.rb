@@ -31,7 +31,9 @@ end
 
 def hit?
   prompt_user
-  get_user_input
+  choice = get_user_input
+  if choice == 'h'
+    deal_card
 end
 
 def invalid_command
