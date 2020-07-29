@@ -31,7 +31,6 @@ end
 
 def hit?
   prompt_user
-  gets.chomp
 end
 
 def invalid_command
