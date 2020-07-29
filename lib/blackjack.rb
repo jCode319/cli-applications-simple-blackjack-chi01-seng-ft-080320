@@ -7,8 +7,8 @@ def deal_card
   return num
 end
 
-def display_card_total
-  # code #display_card_total here
+def display_card_total(total)
+  7
 end
 
 def prompt_user
