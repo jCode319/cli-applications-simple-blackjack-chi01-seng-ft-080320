@@ -38,10 +38,8 @@ def hit?(get_user_input)
     card_total += deal_card
     display_card_total(card_total)
     return card_total
-  elsif input == "s"
+  else input == "s"
     return card_total
-  else
-    hit?
   end
    #binding.pry
 end
