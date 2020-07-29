@@ -32,9 +32,18 @@ def initial_round
 end
 
 def hit?(get_user_input)
-  "#{prompt_user}"
-   "#{get_user_input}"
-   binding.pry
+  prompt_user
+  input = get_user_input
+  if input == "h"
+    card_total += deal_card
+    display_card_total(card_total)
+    return card_total
+  elsif input == "s"
+    return card_total
+  else
+    invalid_command
+    hit?
+   #binding.pry
 end
 
 def invalid_command
