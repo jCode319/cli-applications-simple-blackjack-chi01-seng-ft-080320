@@ -30,7 +30,8 @@ def initial_round
 end
 
 def hit?
-  user = gets.chomp
+  prompt_user
+  gets.chomp
 end
 
 def invalid_command
